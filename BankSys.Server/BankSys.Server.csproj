@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuthService.cs" />
+    <Compile Include="BankAcc.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="Modules\BankingModule%28TCP%29.cs" />
+    <Compile Include="Modules\ChatBot%28TCP%29.cs" />
+    <Compile Include="Modules\ClientHandler.cs" />
+    <Compile Include="Modules\LiveRates%28UDP%29.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
